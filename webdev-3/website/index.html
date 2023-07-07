@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+        @media(max-width:426px){
+            body{
+            font-family: 'Poppins', sans-serif;
+        } 
+        header{
+            width: 100vw;
+            height: 50px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            background-color: rgb(42, 36, 36);
+            
+        }
+       nav{
+        display: none;
+       }
+        .login{
+            display: none;
+        }
+        .logo{
+        color:  rgb(3, 151, 177);;
+        margin-top: 5px;
+        margin-left: 30px;
+        line-height: 20px;
+        }
+        .hb{
+            border: transparent;
+            height:30px;
+            color: white;
+            background-color: rgb(42, 36, 36);
+            width: 20px;
+            margin-top: 10px;
+            margin-right: 30px;
+            display: inline;
+        }
+        .greet{
+            margin-top: 150px;
+        font-weight: 500;
+        font-size: 1.7em;
+        line-height: 11px;
+       }
+       h1{
+        font-size: 3.5em;
+        line-height: 15px;
+        color: rgb(3, 151, 177);
+        font-weight: 500;
+       }
+       .sub{
+        font-size: large;
+        font-weight: 500;
+        color: rgb(3, 151, 177);
+       }
+    }
+        
+
+
+
+
+
+
+        @media(min-width:920px){
+        body{
+            font-family: 'Poppins', sans-serif;
+        }
+        header{
+            height: 50px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            background-color: rgb(42, 36, 36);
+            
+        }
+        
+        ul{
+            display: flex;
+            flex-direction: row;
+            gap: 35px;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 600;
+            
+        }
+        li{
+            text-decoration: none;
+            list-style: none;
+            font-family: 'Poppins', sans-serif;
+        }
+        a{
+            text-decoration: none;
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+        /* .one{
+            height: 40px;
+            margin-left: 10px;
+            margin-top: 10px; 
+            
+        } */
+        .login{
+            margin-right: 30px;
+            margin-top: 12px ;
+            height: 25px;
+            width: 100px;
+            color: white;
+            background-color: rgb(4, 140, 194);
+            border: 1px transparent;
+            border-radius: 3px;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 500;
+            font-size: medium;
+        }
+       .greet{
+        font-weight: 500;
+        font-size: 1.7em;
+        line-height: 11px;
+       }
+       h1{
+        font-size: 3.5em;
+        line-height: 15px;
+        color: rgb(3, 151, 177);
+        font-weight: 500;
+       }
+       .sub{
+        font-size: large;
+        font-weight: 500;
+        color: rgb(3, 151, 177);
+       }
+      
+       main{
+        display: flex;
+        flex-direction: row;
+       }
+       .disc{
+        margin-top: 160px;
+        margin-left: 35px;
+       }
+       p{
+        font-size: large;
+        font-weight: 300;
+       }
+       .final{
+        margin-left: 20px;
+        margin-top: -60px;
+       }
+       .logo{
+        color:  rgb(3, 151, 177);;
+        margin-top: 5px;
+        margin-left: 30px;
+        line-height: 20px;
+       }
+       video{
+        margin-left: 250px;
+       }
+       .hb{
+        display: none;
+       }
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <h2 class="logo">LO <br>GO</h2>
+        <button class="hb"><i class="fa-solid fa-bars"></i></button>    
+        <nav>
+                
+<ul>
+   
+    <li>
+        <a href="#">Home</a>
+    </li>
+    <li>
+        <a href="#">Blog</a>
+    </li>
+    <li>
+        <a href="#">About</a>
+    </li>
+    <li>
+        <a href="#">Contact</a>
+    </li>
+    
+</ul>
+        </nav>
+        <button class="login">Login</button>
+    </header>
+    <main>
+        
+        <div class="disc">
+            <h2 class="greet">Say Hi to</h2>
+            <h1>OneCard</h1> <br>
+            <h3 class="sub">Co-branded Card Issuers:</h3>
+    
+        <img height="125px" width="400" src="assets/Banking_partners_24thJan_dark__.png" alt="Banking-Partners"><br><br>
+        <p>India's best metal credit card. Built with full-stack tech. Backed by the <br> principles of simplicity, transparency, and giving back control to the user.</p>
+    </div>
+    <div class="final">
+        <video height="700px" width="500px" src="assets/say_hi_2x_d3_.mp4" controls></video>
+    </div>
+    </main>
+</body>
+</html>
